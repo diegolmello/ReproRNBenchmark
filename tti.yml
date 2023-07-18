@@ -1,0 +1,4 @@
+appId: chat.rocket.reactnative
+---
+- launchApp
+- assertVisible: 'Beyond Team Collaboration'
