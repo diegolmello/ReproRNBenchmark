@@ -1,0 +1,7 @@
+appId: chat.rocket.reactnative
+---
+- launchApp
+- assertVisible:
+    id: "rooms-list-header-server-subtitle"
+    text: "open.rocket.chat"
+- assertVisible: "Enter your E2E password"

@@ -12,9 +12,9 @@ DURATION=0
 if [ "$TEST_COMMAND" == "tti" ]
 	then
 		DURATION=3000
-elif [ "$TEST_COMMAND" == "ref" ]
+elif [ "$TEST_COMMAND" == "tti_loggedin" ]
 	then
-		DURATION=10
+		DURATION=10000
 fi
 
 # creates the results folder if it doesn't exist
