@@ -47,7 +47,7 @@ This test just open the app and asserts for a label. 0.72 seems to use a lot mor
 
 <img src="readme_content/tti.png" />
 
-<video src="readme_content/tti.mp4">
+https://github.com/diegolmello/ReproRNBenchmark/assets/804994/93eaef5d-39b9-4e04-b64f-f36844e67ae8
 
 ### tti_loggedin.yml
 
@@ -55,7 +55,7 @@ It does a similar thing, but after logged in.
 
 <img src="readme_content/tti_loggedin.png" />
 
-<video src="readme_content/tti_loggedin.mp4">
+https://github.com/diegolmello/ReproRNBenchmark/assets/804994/f745b097-9afa-4238-9198-847c9d300f0a
 
 ### clear_cache.yml
 
@@ -63,4 +63,4 @@ It opens the drawer and clears the app cache, which is a feature to refresh loca
 
 <img src="readme_content/clear_cache.png" />
 
-<video src="readme_content/clear_cache.mp4">
+https://github.com/diegolmello/ReproRNBenchmark/assets/804994/550c6e25-8cb7-4c78-94a5-9ee2a6507121
