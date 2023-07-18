@@ -1,6 +1,6 @@
 if [ -z "$1" ] || [ -z "$2" ]
 	then
-		echo "sh ./flashlight-runner.sh <testCommand> <RN Version>"
+		echo "sh ./flashlight-runner.sh <testFile> <RN Version>"
 		echo "example: sh ./flashlight-runner.sh tti.yml 0.69.8"
 		exit 1
 fi
