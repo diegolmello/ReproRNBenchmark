@@ -1,0 +1,17 @@
+# Login manually first
+# Workspace: open
+# Username: testrn
+# Password: testrn
+
+# After logged in, go to settings and clear cache
+appId: chat.rocket.reactnative
+---
+- launchApp
+- tapOn:
+    id: 'rooms-list-view-sidebar'
+- tapOn: 'Settings'
+- tapOn: 'Clear local workspace cache'
+- assertVisible: 'This will clear all your offline data.'
+- tapOn: 'CLEAR'
+- assertVisible:
+    text: 'support'

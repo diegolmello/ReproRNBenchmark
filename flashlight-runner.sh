@@ -15,6 +15,9 @@ if [ "$TEST_COMMAND" == "tti" ]
 elif [ "$TEST_COMMAND" == "tti_loggedin" ]
 	then
 		DURATION=10000
+elif [ "$TEST_COMMAND" == "clear_cache" ]
+	then
+		DURATION=0
 fi
 
 # creates the results folder if it doesn't exist

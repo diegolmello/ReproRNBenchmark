@@ -1,3 +1,7 @@
+# Login manually first
+# Workspace: open
+# Username: testrn
+# Password: testrn
 appId: chat.rocket.reactnative
 ---
 - launchApp
