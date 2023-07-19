@@ -41,6 +41,8 @@ Example:
 flashlight report ./results/clear_cache
 ```
 
+## Test Results
+
 ### tti.yml
 
 This test just open the app and asserts for a label. 0.72 seems to use a lot more resources to load the app.
@@ -51,7 +53,7 @@ https://github.com/diegolmello/ReproRNBenchmark/assets/804994/93eaef5d-39b9-4e04
 
 ### tti_loggedin.yml
 
-It does a similar thing, but after logged in.
+It does a similar thing, but after logged in. Some requests to backend and more data to be rendered.
 
 <img src="readme_content/tti_loggedin.png" />
 
@@ -59,7 +61,7 @@ https://github.com/diegolmello/ReproRNBenchmark/assets/804994/f745b097-9afa-4238
 
 ### clear_cache.yml
 
-It opens the drawer and clears the app cache, which is a feature to refresh local db. It does several requests to the server and it's an expensive task. Even thought TTI tests above shows us 0.72 is worse than the others, this test shows how 0.72 is an improvement over 0.71.
+It opens the drawer and clears the app cache, which is a feature to refresh local workspace db. It does several requests to the server, so it's an expensive task. Even though TTI tests above shows us 0.72 is worse than the others, this test shows an improvement over 0.71.
 
 <img src="readme_content/clear_cache.png" />
 
